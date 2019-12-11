@@ -1,0 +1,160 @@
+html,
+body {
+   font: 16px/1.5 Verdana, Arial, Helvetica,sans-serif;
+   margin:0px;
+   padding:0px;
+   height:100%;
+   background-color: #f0f0f0;
+
+}
+#container {
+   min-height:100%;
+   position:relative;
+   overflow:hidden;
+}
+#header {
+   background:#35424a;
+   border-bottom: #e8491d 3px solid;
+   
+}
+
+#head{
+    width:80%;
+    margin:auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+#head li{
+    display:inline;
+    float:right;
+}
+
+#branding{
+    float:left;
+    color:#ffffff;
+}
+
+
+#branding a, #branding a:hover{
+    float:left;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+
+#logininfo{
+    color: #ffffff;
+    float:right;
+}
+
+#logininfo .btn-primary, #logininfo .btn-primary:hover, #logininfo .btn-primary:active, #logininfo .btn-primary:visited, #logininfo .btn-primary:focus {
+    background-color: transparent !important;
+    color: #e8491d;
+    box-shadow: none !important;
+    border-color: transparent !important;
+    font-weight:bold !important;
+    font-size: 16px;
+    padding-left: 0px !important;
+}
+
+#logininfo .btn-primary:hover {
+    color: #ffffff !important;
+    font-weight:bold !important;
+}
+
+.highlight{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+
+#body {
+   width:80%;
+   margin:auto;
+   overflow:hidden;
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+
+.bnaslov {
+    text-align: center;
+}
+
+#kos{
+    float:right;
+}
+
+
+#footer{
+  position:absolute;
+  bottom:0;
+  padding-top: 10px;
+  width:100%;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+
+#navig {
+  disply:inline;
+  background-color: #35424a;
+  text-align: center;
+  padding-top:5px;
+  padding-bottom:5px;
+  
+}
+
+#navig .btn-primary, #navig .btn-primary:hover, #navig .btn-primary:active, #navig .btn-primary:visited, #navig .btn-primary:focus {
+    background-color: transparent !important;
+    color: #e8491d;
+    box-shadow: none !important;
+    border-color: transparent !important;
+    text-transform: uppercase !important;
+    font-weight:bold !important;
+}
+
+#navig .btn-primary:hover {
+    color: #ffffff !important;
+    font-weight:bold !important;
+}
+
+#navig .btn-success, #navig .btn-success:hover, #navig .btn-success:active, #navig .btn-success:visited, #navig .btn-success:focus {
+    border-radius: 2px !important;
+    text-transform: uppercase !important;
+    font-weight:bold !important;
+}
+
+
+.promjeni {
+    color: black;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+}
+
+
+.ukloni {
+    color: black;
+    padding-top: 9px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+}
+
+.ukloni:hover {
+    color: black;
+}
+
+.bat {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
